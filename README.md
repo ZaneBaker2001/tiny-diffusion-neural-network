@@ -92,7 +92,4 @@ out_dir: "runs/default"
 
 
 
----
 
-**MIT License** — feel free to use, modify, and learn from this code.  
-Made with ❤️ for deep learning enthusiasts.
