@@ -3,7 +3,6 @@
 A clean, minimal PyTorch implementation of a **Denoising Diffusion Probabilistic Model (DDPM)**, training on CIFAR-10 to generate 32×32 images.  
 It’s compact enough to study in a weekend, but powerful enough to produce compelling results.
 
-![Sample images](runs/default/samples_e60.png)
 
 ---
 
