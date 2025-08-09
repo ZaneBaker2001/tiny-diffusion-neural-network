@@ -1,4 +1,4 @@
-# 🌀 Tiny Diffusion — A Minimal Denoising Diffusion Model
+# Tiny Diffusion — A Minimal Denoising Diffusion Model
 
 A clean, minimal PyTorch implementation of a **Denoising Diffusion Probabilistic Model (DDPM)**, training on CIFAR-10 to generate 32×32 images.  
 It’s compact enough to study in a weekend, but powerful enough to produce compelling results.
@@ -7,7 +7,7 @@ It’s compact enough to study in a weekend, but powerful enough to produce comp
 
 ---
 
-## ✨ Features
+## Features
 
 - **UNet-style architecture** for noise prediction
 - **Cosine β-schedule** for smoother training
@@ -22,7 +22,7 @@ It’s compact enough to study in a weekend, but powerful enough to produce comp
 ## 📂 Project Structure
 
 ```
-tiny-diffusion/
+tiny-diffusion-neural-network/
 ├─ README.md
 ├─ requirements.txt
 ├─ config.yaml                # Training hyperparameters
@@ -39,7 +39,7 @@ tiny-diffusion/
 
 ---
 
-## 🚀 Quickstart
+## Quickstart
 
 ### 1) Install dependencies
 ```bash
@@ -91,7 +91,7 @@ out_dir: "runs/default"
 
 ---
 
-## 📈 Results
+## Results
 
 After ~60 epochs on CIFAR-10:
 
@@ -103,26 +103,7 @@ After ~60 epochs on CIFAR-10:
 
 ---
 
-## 🔮 Next Steps
 
-- [ ] Add **Exponential Moving Average (EMA)** of weights for crisper samples  
-- [ ] Implement **Classifier-Free Guidance** for more controllable outputs  
-- [ ] Swap CIFAR-10 with **CelebA-HQ** or custom datasets  
-- [ ] Integrate FID/KID score tracking  
-
----
-
-## 📜 Citation
-
-If you use this code, credit is appreciated:
-```bibtex
-@misc{tinydiffusion2025,
-  author = {Your Name},
-  title = {Tiny Diffusion: Minimal Denoising Diffusion Model in PyTorch},
-  year = {2025},
-  howpublished = {\url{https://github.com/yourusername/tiny-diffusion}}
-}
-```
 
 ---
 
