@@ -68,7 +68,7 @@ Visit the Gradio link to interactively generate images.
 
 ---
 
-## ⚙ Configuration
+## Configuration
 
 All training parameters are in `config.yaml`:
 
@@ -88,19 +88,7 @@ samples_per_grid: 64
 out_dir: "runs/default"
 ```
 
----
 
-## Results
-
-After ~60 epochs on CIFAR-10:
-
-| Epoch | Sample Output |
-|-------|---------------|
-| 10    | ![](runs/default/samples_e10.png) |
-| 30    | ![](runs/default/samples_e30.png) |
-| 60    | ![](runs/default/samples_e60.png) |
-
----
 
 
 
