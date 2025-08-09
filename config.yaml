@@ -1,0 +1,21 @@
+seed: 1337
+device: "cuda"   # "cpu" if no GPU
+image_size: 32
+channels: 3
+dataset: "CIFAR10"
+batch_size: 128
+accum_steps: 1
+num_workers: 4
+
+steps: 1000          # diffusion steps T
+beta_schedule: "cosine"
+lr: 2.0e-4
+epochs: 60
+amp: true
+ema: true
+ema_decay: 0.999
+
+log_every: 100
+ckpt_every: 2
+samples_per_grid: 64
+out_dir: "runs/default"
