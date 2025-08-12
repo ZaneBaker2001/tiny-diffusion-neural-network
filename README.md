@@ -18,7 +18,7 @@ It’s compact enough to study in a weekend, but powerful enough to produce comp
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 tiny-diffusion-neural-network/
